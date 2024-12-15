@@ -178,10 +178,6 @@ const experiences = [
     date: 'Oct 2021 - Present',
     points: [
       {
-        content: 'Current GPA: 3.11/4',
-        subContent: null,
-      },
-      {
         content: 'Revelant Coursework:',
         subContent: [
           'Databases',

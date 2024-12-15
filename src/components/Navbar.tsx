@@ -112,13 +112,13 @@ const Navbar = () => {
               ))}
               <li>
                 <a
-                  href="https://drive.google.com/file/d/1knhgSCP3wEGXOjMqf4p5FstiRZDtBQgq/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1y08N0skL_x7W8Ek_C1qETdcJ9f_GF44d/view?usp=sharing"
                   className="font-poppins font-medium text-lg cursor-pointer text-secondary hover:text-white"
                   onClick={(ev) => {
                     ev.preventDefault();
 
                     window.open(
-                      'https://drive.google.com/file/d/1knhgSCP3wEGXOjMqf4p5FstiRZDtBQgq/view?usp=sharing',
+                      'https://drive.google.com/file/d/1y08N0skL_x7W8Ek_C1qETdcJ9f_GF44d/view?usp=sharing',
                       '_blank',
                     );
                   }}

@@ -18,7 +18,7 @@ interface ProjectCardProps {
   github_repo: boolean;
   source_code_link: string;
   live_demo: boolean;
-  live_demo_link: string;
+  live_demo_link?: string;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({

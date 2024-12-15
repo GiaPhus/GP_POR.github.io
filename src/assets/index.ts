@@ -56,7 +56,7 @@ import aisiaWeb from './aisia-web.png';
 import ubunchuu from './ubunchuu.png';
 import netflix from './netflix.png';
 import airbnb from './airbnb.png';
-import rh from './recoveredhealth.png';
+// import rh from './recoveredhealth.png';
 import NLP from './NLP.png';
 import ETL from './DataFlow.png';
 

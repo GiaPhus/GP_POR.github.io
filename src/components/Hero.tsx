@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion, useReducedMotion } from "framer-motion";
 import { ArrowRight, BadgeCheck, FileText, Github, Linkedin, MapPin } from "lucide-react";
 import { profile, stats } from "@/data/portfolio";
+import avatarImg from "../../public/avatar.jpg";
 
 export default function Hero() {
   const reduce = useReducedMotion();
@@ -107,7 +108,7 @@ export default function Hero() {
               />
               <div className="glass relative overflow-hidden rounded-3xl p-1.5">
                 <Image
-                  src={profile.avatar}
+                  src={avatarImg}
                   alt={`Chibi illustration of ${profile.fullName} working on a laptop`}
                   width={300}
                   height={360}

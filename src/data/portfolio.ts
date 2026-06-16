@@ -1,5 +1,4 @@
 export type Stat = { label: string; value: string };
-
 export type Experience = {
   company: string;
   role: string;

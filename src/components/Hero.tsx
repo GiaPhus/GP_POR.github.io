@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion, useReducedMotion } from "framer-motion";
 import { ArrowRight, BadgeCheck, FileText, Github, Linkedin, MapPin } from "lucide-react";
 import { profile, stats } from "@/data/portfolio";
-import avatarImg from "../../public/avatar.jpg";
+import avatarImg from "../public/avatar.jpg";
 
 export default function Hero() {
   const reduce = useReducedMotion();

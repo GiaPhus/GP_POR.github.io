@@ -108,7 +108,7 @@ export default function Hero() {
               <div className="glass relative overflow-hidden rounded-3xl p-1.5">
                 <Image
                   src={profile.avatar}
-                  alt={`Portrait of ${profile.fullName}`}
+                  alt={`Chibi illustration of ${profile.fullName} working on a laptop`}
                   width={300}
                   height={360}
                   priority

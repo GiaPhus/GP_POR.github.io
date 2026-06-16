@@ -12,7 +12,7 @@ const inter = Inter({
 const description =
   "Gia Phú (Tran Gia Phu) — a data engineer from Ho Chi Minh City who builds ETL pipelines, data warehouses, and cloud-based data systems with Spark, Airflow, and AWS.";
 
-const themeScript = `(function(){try{var t=localStorage.getItem('theme');if(t!=='light'){t='dark';}document.documentElement.classList.add(t);document.documentElement.style.colorScheme=t;}catch(e){document.documentElement.classList.add('dark');}})();`;
+const themeScript = `(function(){try{var t=localStorage.getItem('theme');if(t!=='dark'){t='light';}document.documentElement.classList.add(t);document.documentElement.style.colorScheme=t;}catch(e){document.documentElement.classList.add('light');}})();`;
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://giaphu-portfolio.vercel.app"),

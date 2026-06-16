@@ -1,0 +1,116 @@
+<svg width="300" height="360" viewBox="0 0 300 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Chibi illustration of a young male developer working on a laptop">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1E3A8A"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.32" r="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Backdrop -->
+  <rect width="300" height="360" fill="url(#bg)"/>
+  <rect width="300" height="360" fill="url(#glow)"/>
+
+  <!-- Soft decorative blobs -->
+  <circle cx="58" cy="70" r="40" fill="#ffffff" opacity="0.06"/>
+  <circle cx="250" cy="120" r="55" fill="#ffffff" opacity="0.05"/>
+  <circle cx="245" cy="300" r="34" fill="#ffffff" opacity="0.06"/>
+
+  <!-- Floating code window -->
+  <g opacity="0.9">
+    <rect x="34" y="74" width="86" height="58" rx="10" fill="#0F172A" opacity="0.55"/>
+    <circle cx="46" cy="86" r="3" fill="#F87171"/>
+    <circle cx="56" cy="86" r="3" fill="#FBBF24"/>
+    <circle cx="66" cy="86" r="3" fill="#34D399"/>
+    <rect x="44" y="98" width="44" height="5" rx="2.5" fill="#60A5FA"/>
+    <rect x="44" y="108" width="62" height="5" rx="2.5" fill="#94A3B8"/>
+    <rect x="44" y="118" width="34" height="5" rx="2.5" fill="#38BDF8"/>
+  </g>
+
+  <!-- Database stack -->
+  <g transform="translate(214,196)" opacity="0.95">
+    <ellipse cx="22" cy="6" rx="22" ry="7" fill="#38BDF8"/>
+    <path d="M0 6 V34 a22 7 0 0 0 44 0 V6" fill="#0EA5E9"/>
+    <ellipse cx="22" cy="6" rx="22" ry="7" fill="#7DD3FC"/>
+    <path d="M0 18 a22 7 0 0 0 44 0" stroke="#0284C7" stroke-width="2" fill="none" opacity="0.6"/>
+    <path d="M0 30 a22 7 0 0 0 44 0" stroke="#0284C7" stroke-width="2" fill="none" opacity="0.6"/>
+  </g>
+
+  <!-- Chibi character -->
+  <g>
+    <!-- Shadow -->
+    <ellipse cx="150" cy="316" rx="78" ry="14" fill="#0F172A" opacity="0.22"/>
+
+    <!-- Legs (crossed) -->
+    <path d="M104 300 q46 18 92 0 l-6 16 q-40 12 -80 0 z" fill="#1E293B"/>
+
+    <!-- Body / hoodie -->
+    <path d="M150 198
+             c-34 0 -52 22 -56 54
+             c-2 18 0 34 4 46
+             q52 16 104 0
+             c4 -12 6 -28 4 -46
+             c-4 -32 -22 -54 -56 -54 z" fill="#2563EB"/>
+    <!-- Hoodie shading -->
+    <path d="M150 198 c-20 0 -34 8 -44 24 q44 -10 88 0 c-10 -16 -24 -24 -44 -24 z" fill="#1D4ED8"/>
+    <!-- Sleeves / arms reaching to laptop -->
+    <path d="M104 256 q-16 14 -14 40 l24 6 q4 -24 14 -38 z" fill="#1D4ED8"/>
+    <path d="M196 256 q16 14 14 40 l-24 6 q-4 -24 -14 -38 z" fill="#1D4ED8"/>
+
+    <!-- Neck -->
+    <rect x="138" y="176" width="24" height="26" rx="10" fill="#F2C49B"/>
+
+    <!-- Head -->
+    <circle cx="150" cy="146" r="46" fill="#F8D2AE"/>
+    <!-- Ears -->
+    <circle cx="106" cy="148" r="8" fill="#F2C49B"/>
+    <circle cx="194" cy="148" r="8" fill="#F2C49B"/>
+
+    <!-- Hair -->
+    <path d="M104 142
+             c0 -34 22 -56 46 -56
+             c24 0 46 22 46 56
+             c-8 -10 -16 -16 -24 -18
+             c2 8 0 14 -2 18
+             c-10 -14 -26 -20 -40 -18
+             c-12 2 -22 10 -26 22
+             c-3 -2 -5 -2 -6 -2 z" fill="#1F2937"/>
+
+    <!-- Eyes -->
+    <circle cx="134" cy="148" r="5" fill="#1F2937"/>
+    <circle cx="166" cy="148" r="5" fill="#1F2937"/>
+    <circle cx="135.5" cy="146.5" r="1.6" fill="#ffffff"/>
+    <circle cx="167.5" cy="146.5" r="1.6" fill="#ffffff"/>
+    <!-- Eyebrows -->
+    <rect x="127" y="137" width="14" height="3.5" rx="1.75" fill="#1F2937"/>
+    <rect x="159" y="137" width="14" height="3.5" rx="1.75" fill="#1F2937"/>
+    <!-- Smile -->
+    <path d="M141 162 q9 8 18 0" stroke="#9A6A43" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <!-- Cheeks -->
+    <circle cx="124" cy="158" r="5" fill="#F8A5A5" opacity="0.55"/>
+    <circle cx="176" cy="158" r="5" fill="#F8A5A5" opacity="0.55"/>
+
+    <!-- Hands -->
+    <circle cx="118" cy="296" r="9" fill="#F8D2AE"/>
+    <circle cx="182" cy="296" r="9" fill="#F8D2AE"/>
+
+    <!-- Laptop -->
+    <g>
+      <rect x="100" y="286" width="100" height="14" rx="5" fill="#CBD5E1"/>
+      <rect x="100" y="286" width="100" height="6" rx="3" fill="#E2E8F0"/>
+      <rect x="110" y="246" width="80" height="48" rx="6" fill="#334155"/>
+      <rect x="115" y="251" width="70" height="38" rx="3" fill="url(#screen)"/>
+      <rect x="121" y="257" width="30" height="4" rx="2" fill="#ffffff" opacity="0.85"/>
+      <rect x="121" y="265" width="44" height="4" rx="2" fill="#ffffff" opacity="0.55"/>
+      <rect x="121" y="273" width="22" height="4" rx="2" fill="#ffffff" opacity="0.7"/>
+      <rect x="121" y="281" width="36" height="4" rx="2" fill="#ffffff" opacity="0.45"/>
+    </g>
+  </g>
+</svg>
